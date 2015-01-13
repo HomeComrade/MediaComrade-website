@@ -1,0 +1,75 @@
+.ui-loader-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    position: fixed;
+    z-index: 100;
+}
+
+.ui-loading .ui-loader-background {
+    display: block;
+}
+
+.error-message {
+	padding: 15px;
+}
+
+#toast {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 65%;
+	left: 50%;
+	margin-left: -32.5%;
+	margin-bottom: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+/*
+#toast-container #toast {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+#random-popup-popup {
+	width: 90%;
+}
+
+.ui-btn.left {
+	text-align: left;
+}
+
+.ui-header .ui-title {
+	margin-right: 0%;
+	margin-left: 0%;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 4em;
+	right: 5px;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgb(200, 200, 200);
+	font-size: 12px;
+	padding: 2em;
+	border-radius: 15px;
+	display: none;
+}
+
+#back-to-top:hover {    
+	background-color: rgba(135, 135, 135, 0.50);
+}
+
+#browse-dir {
+	text-align: center;
+}

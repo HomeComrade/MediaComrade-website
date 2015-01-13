@@ -1,0 +1,5 @@
+_selectedRandomShows should be set to an empty array if we abort the random process
+
+The list of "All Shows" should take up only 90% height and scroll
+
+In the "All Shows" popup, auto-select any items that are selected in _selectedRandomShows;
