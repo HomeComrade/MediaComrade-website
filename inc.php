@@ -7,7 +7,6 @@ $serverDomains = array(
 	'media.apt',
 	'andrew.apt',
 	//'anella.apt',
-	'shiznatix-toshiba.apt',
 );
 
 $serverTypes = array(
